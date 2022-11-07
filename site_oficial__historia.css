@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1E1E22;
+}
+
+.logomarca {
+    height: 80px;
+    display: block;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu_li {
+    float: left;
+    margin: 0px 25px;
+}
+
+.menu__link {
+    color: #1bceb9;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.menu__link:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    width: 1227px;
+    margin: 0 auto;
+}
+
+.fundo {
+    background: url(fundo\ menu.png) no-repeat 0 0;
+    padding-top: 40px;
+}
+
+
+.texto_intro {
+    width: 1200px;
+    height: 140px;
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    color: #1bceb9;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-top: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.imagem_intro {
+    background: url(primeira-igreja-matriz-portal-do-ó.jpg);
+    height: 400px;
+    width: 750px;
+    margin-left: 240px;
+    border-radius: 10px;
+    background-size: 750px;
+    background-position: center;
+    margin-bottom: 80px;
+}
+
+.histo2 {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    height: 330px;
+}
+
+.textohisto2 {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    margin-top: 100px;
+    color: #1666DF;
+}
+
+.paroquia {
+    position: absolute;
+    width: 400px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+
+.texto_nome {
+    width: 500px;
+    height: 140px;
+    text-align: right;
+    display: block;
+    margin-top: 100px;
+    color: #EBB911;
+    float: right;
+    margin-top: 200px;
+}
+
+.caninha {
+    width: 500px;
+    margin-top: 60px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+b {
+    font-weight: 800;
+}
+
+table {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+td {
+    width: 270px;
+    vertical-align: top;
+    height: 150px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#icons {
+    text-align: right;
+}
+
+.ancoragem {
+    position: fixed;
+    top: 570px;
+    right: 0px;
+    margin-right: 30px;
+}
+
+.video {
+    margin-left: 330px;
+    margin-bottom: 50px;
+    width: 1228;
+    height: 450;
+    border-radius: 10px;
+}
